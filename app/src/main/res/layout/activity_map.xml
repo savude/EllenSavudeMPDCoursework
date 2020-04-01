@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Name:          Ellen Savude Ngatia
+Student ID:   S1638842
+-->
+<LinearLayout android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".View.MapActivity"
+    android:orientation="vertical">
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_margin="3dp"
+        android:layout_height="500dp"/>
+    <Button
+        android:id="@+id/back"
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:text="@string/home"
+        android:layout_margin="3dp"
+        android:textAppearance="@style/Font"
+        android:layout_marginBottom="5dp"
+        style="@style/AppTheme.RoundedCornerMaterialButton"/>
+</LinearLayout>
+

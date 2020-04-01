@@ -1,0 +1,17 @@
+<!--
+Name:          Ellen Savude Ngatia
+Student ID:   S1638842
+-->
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"   >
+
+    <solid
+        android:color="@color/colorPrimary" >
+    </solid>
+
+    <corners
+        android:radius="50dp"   >
+    </corners>
+
+</shape>

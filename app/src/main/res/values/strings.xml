@@ -1,0 +1,57 @@
+<!--
+   Name:          Ellen Savude Ngatia
+   Student ID:   S1638842
+   -->
+<resources>
+    <string name="app_name">Ellen Savude Ngatia </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_map">Map</string>
+    <string name="calculateview">Search</string>
+    <string name="fromdate">From Date:&#160;</string>
+    <string name="todate">To Date:&#160;</string>
+    <string name="locate">Show Location</string>
+    <string name="home">Back</string>
+    <string name="last100">Last 100 days</string>
+    <string name="refresh">Refreshing...&#160;</string>
+    <string name="dateentry">Please enter dates to search</string>
+    <string name="empty">Search record empty</string>
+    <string name="selectid">Selected ID:&#160;</string>
+    <string name="location">Location: %s&#160;</string>
+    <string name="title">Title: %s&#160;</string>
+    <string name="searchtitle">Search</string>
+    <string name="locationsearch">Location:&#160;</string>
+    <string name="titlesearch">Title:&#160;</string>
+    <string name="categorysearch">Category:&#160;</string>
+    <string name="depthsearch">Depth:&#160;</string>
+    <string name="magnitudesearch">Magnitude:&#160;</string>
+    <string name="descsearch">Description:&#160;</string>
+    <string name="linksearch">Link:&#160;</string>
+    <string name="publishsearch">Published:&#160;</string>
+    <string name="latsearch">Latitude:&#160;</string>
+    <string name="lonsearch">Longitude:&#160;</string>
+    <string name="origsearch">Origin Date:&#160;</string>
+    <string name="searchtext">&#160;Search&#160;</string>
+    <string name="back">&#160;Back&#160;</string>
+    <string name="northernmost">Northernmost with a Latitude of: %f - %s&#160;</string>
+    <string name="southernmost">Southernmost with a Latitude of: %f - %s&#160;</string>
+    <string name="largemag">Largest Magnitude with a magnitude of: %f - %s&#160;</string>
+    <string name="earthquake">Search for Earthquake</string>
+    <string name="recent">Recent Earthquakes</string>
+    <string name="Duration">Search by Range</string>
+    <string name="category">Category: %s&#160;</string>
+    <string name="depth">Depth: %d %s&#160;</string>
+    <string name="magnitude">Magnitude: %f&#160;</string>
+    <string name="desc">Description: %s&#160;</string>
+    <string name="link">Link: %s&#160;</string>
+    <string name="publish">Published: %s&#160;</string>
+    <string name="lat">Latitude: %f&#160;</string>
+    <string name="lon">Longitude: %f&#160;</string>
+    <string name="westernmost">Westernmost, Longitude of: %f - %s&#160;</string>
+    <string name="easternmost">Easternmost, Longitude of: %f - %s&#160;</string>
+    <string name="deepest">Deepest with a depth of: %d - %s&#160;</string>
+    <string name="shallow">Shallowest with a depth of: %d - %s&#160;</string>
+    <string name="orig">Origin Date: %s&#160;</string>
+    <string name="splashname1">British Geological Survey</string>
+    <string name="splashload">Loading Data...</string>
+    <string name="splashload2">Mobile Program Development</string>
+</resources>

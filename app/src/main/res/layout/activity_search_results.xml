@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Name:          Ellen Savude Ngatia
+Student ID:   S1638842
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".Controller.SearchLoadData">
+    <LinearLayout
+        android:id="@+id/spinSelector"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_weight="0.08"
+        android:layout_margin="3dp"
+        android:background="@drawable/border"
+        android:padding="4dp"
+        android:layout_height="0dp">
+        <Spinner
+            android:id="@+id/selectRecord"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:popupBackground="#ffff"
+
+            android:spinnerMode="dropdown"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_weight="0.55"
+        android:layout_margin="3dp"
+        android:background="@drawable/border"
+        android:padding="5dp"
+        android:layout_height="0dp">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:id="@+id/showInfo"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_marginTop="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <View style="@style/Rule" />
+                <TextView
+                    android:id="@+id/link"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <View style="@style/Rule" />
+                <TextView
+                    android:id="@+id/cat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <View style="@style/Rule" />
+                <TextView
+                    android:id="@+id/lat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <View style="@style/Rule" />
+                <TextView
+                    android:id="@+id/lon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <View style="@style/Rule" />
+                <TextView
+                    android:id="@+id/origin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <View style="@style/Rule" />
+                <TextView
+                    android:id="@+id/loc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <View style="@style/Rule" />
+                <TextView
+                    android:id="@+id/mag"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <View style="@style/Rule" />
+                <TextView
+                    android:id="@+id/dep"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/showOnMap"
+        android:layout_weight="0.45"
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <fragment
+            android:id="@+id/mapInfo"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.75"
+            />
+        <Button
+            android:id="@+id/back"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:text="@string/home"
+            android:layout_margin="3dp"
+            android:layout_weight="0.25"
+            android:textAppearance="@style/Font"
+            style="@style/AppTheme.RoundedCornerMaterialButton"/>
+    </LinearLayout>
+</LinearLayout>

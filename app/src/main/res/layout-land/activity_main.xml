@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Name:          Ellen Savude Ngatia
+Student ID:   S1638842
+-->
+<LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context=".View.MainActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/gradient_background"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/splashname1"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30sp" />
+
+
+        <Button
+            android:id="@+id/searchb"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:text="@string/earthquake"
+            style="@style/AppTheme.RoundedCornerMaterialButton"/>
+
+        <Button
+            android:id="@+id/duration"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:text="@string/Duration"
+            style="@style/AppTheme.RoundedCornerMaterialButton" />
+
+        <Button
+            android:id="@+id/recent"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:text="@string/recent"
+            style="@style/AppTheme.RoundedCornerMaterialButton" />
+
+    </LinearLayout>
+
+</LinearLayout>

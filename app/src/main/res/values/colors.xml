@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Name:          Ellen Savude Ngatia
+Student ID:   S1638842
+-->
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="vblack">#111111</color>
+    <color name="colorstylebutton">#b8b6f9</color>
+    <color name="White">#EEEEEE</color>
+    <color name="colorTextButton">#eafeff</color>
+    <color name="colorTextOther">#7c81ff</color>
+</resources>
